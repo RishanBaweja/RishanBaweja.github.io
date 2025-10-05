@@ -11,7 +11,12 @@ html {
 }
 
 body {
-  background: var(--cg-grey);
+  background: linear-gradient(
+    180deg,
+    rgb(144, 153, 152) 20%,
+    rgb(197, 208, 208) 80%,
+    rgb(0, 0, 0) 100%
+  );
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -66,6 +71,7 @@ body {
 .navbar a:hover {
   color: var(--cg-blue);
   text-decoration: underline;
+  transform: scale(1.2);
 }
 
 .navbar a:active {
@@ -78,6 +84,7 @@ body {
 
 .logo a:hover {
   text-decoration: None;
+  transform: scale(1.2);
 }
 
 main {
@@ -149,6 +156,7 @@ main {
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
 }
 
 .project-details a:hover {
@@ -212,6 +220,7 @@ main {
   text-align: center;
 
   border-radius: 2px;
+  transition: all 0.3s ease-in-out;
 }
 
 .button:hover {
@@ -258,6 +267,11 @@ form {
   cursor: pointer;
 }
 
+.submit :hover {
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+}
 /* CSS for footer */
 
 .footer {
