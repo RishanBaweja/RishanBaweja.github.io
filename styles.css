@@ -249,6 +249,15 @@ form {
   margin: 0 auto;
 }
 
+.submit {
+  background-color: #000000;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
 /* CSS for footer */
 
 .footer {
