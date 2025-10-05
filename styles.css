@@ -15,8 +15,11 @@ body {
     180deg,
     rgb(144, 153, 152) 20%,
     rgb(197, 208, 208) 80%,
-    rgb(0, 0, 0) 100%
+    rgb(219, 216, 216) 100%
   );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -229,6 +232,14 @@ main {
 
 .resume h2 {
   font-family: Georgia;
+}
+
+.resume-download {
+  font-size: 16px;
+}
+
+.blog-text {
+  text-align: center;
 }
 
 /* CSS for contact form */
